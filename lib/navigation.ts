@@ -5,6 +5,7 @@ import {
   BarChart2,
   Settings,
   TableProperties,
+  Coffee,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -30,6 +31,7 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { label: 'Menú',    href: '/menu',    icon: UtensilsCrossed, roles: ['gerente', 'mesero', 'cocinero'] },
       { label: 'Mesas',    href: '/mesa',    icon: TableProperties, roles: ['gerente', 'mesero', 'cocinero'] },
+      { label: 'Alimentos',    href: '/product',    icon: Coffee, roles: ['gerente', 'mesero', 'cocinero'] },
 /*       { label: 'Pedidos', href: '/pedidos', icon: ClipboardList,   roles: ['gerente', 'mesero'] },
  */      { label: 'Cocina',  href: '/kitchen',  icon: ChefHat,         roles: ['gerente', 'cocinero'] },
     ],

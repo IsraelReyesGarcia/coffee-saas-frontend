@@ -21,7 +21,7 @@ export default function CardFood(){
                 <p className="text-gray-500 text-sm">Expresso doble con leche texturizada y arte latte.</p>
             </CardContent>
             <div className="w-full flex justify-center items-center mt-2 p-3">
-                <Button size={'xl'} className="w-full" variant={'secondary'}> 
+                <Button size={'xl'} className="w-full" variant={'default'}> 
                     Agregar +
                 </Button>
             </div>

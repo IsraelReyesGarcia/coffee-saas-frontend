@@ -10,13 +10,7 @@ import {
 export default function UserNav(){
     return(
         <DropdownMenu>
-            <DropdownMenuTrigger render={<Button variant="outline" />}>
-                <Button
-                    variant={'outline'}
-                    className="relative rounded-full h-8 w-8 "
-                >
-                    
-                </Button>
+            <DropdownMenuTrigger render={<Button variant="outline" className="relative rounded-full h-8 w-8" />}>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
                 <DropdownMenuGroup>
